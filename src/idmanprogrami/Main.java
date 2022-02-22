@@ -40,7 +40,7 @@ public class Main {
             int sayi = scanner.nextInt();
             scanner.hasNextLine();
             idman.hareketYap(tur, sayi);
-            System.err.println("");
+            
             
             
         }
