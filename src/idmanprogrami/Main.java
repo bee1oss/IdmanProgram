@@ -27,6 +27,7 @@ public class Main {
         int situp = scanner.nextInt();
         System.out.println("Squad sayisi:");
         int squad = scanner.nextInt();
+        scanner.hasNextLine();
         
         Idman idman = new Idman(burpee,pushup,situp,squad);
         
